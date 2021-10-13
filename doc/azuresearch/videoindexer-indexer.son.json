@@ -1,0 +1,22 @@
+{
+    "@odata.context": "https://xxxx.search.windows.net/$metadata#indexers/$entity",
+    "@odata.etag": "\"0x8D98A404492B6F3\"",
+    "name": "videoindexer-indexer",
+    "description": null,
+    "dataSourceName": "videoinder-datasource",
+    "skillsetName": null,
+    "targetIndexName": "videoindexer-index",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": null,
+      "maxFailedItemsPerBatch": null,
+      "base64EncodeKeys": null,
+      "configuration": {}
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [],
+    "cache": null,
+    "encryptionKey": null
+  }

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexVideoConsole", "IndexVideoConsole\IndexVideoConsole.csproj", "{6CC52D22-A56D-4DC3-AC2E-5E14BD62C3A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchVideoConsole", "SearchVideoConsole\SearchVideoConsole.csproj", "{DAA7C80D-AC7E-4A08-9ED5-6DFA87405E02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoIndexerFunctions", "VideoIndexerFunctions\VideoIndexerFunctions.csproj", "{FDDAC2FF-640F-4FD3-8AD1-4AA07961AD1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6B386857-85D3-4644-80CC-874271732E70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureVideoIndexer.ForMediaService", "AzureVideoIndexer.ForMediaService\AzureVideoIndexer.ForMediaService.csproj", "{288BDC2A-C791-4A8D-9CD7-EA0E895239CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureVideoIndexer.KeyVault", "AzureVideoIndexer.KeyVault\AzureVideoIndexer.KeyVault.csproj", "{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureVideoIndexer.CosmosDb", "AzureVideoIndexer.CosmosDb\AzureVideoIndexer.CosmosDb.csproj", "{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureVideoIndexer.CognitiveSearch", "AzureVideoIndexer.CognitiveSearch\AzureVideoIndexer.CognitiveSearch.csproj", "{4D8BF636-172F-486A-9EBF-ADC474CB470B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureVideoIndexer.Core", "AzureVideoIndexer.Core\AzureVideoIndexer.Core.csproj", "{57B7079D-5820-4891-B2C6-E3F7C08C9F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC52D22-A56D-4DC3-AC2E-5E14BD62C3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC52D22-A56D-4DC3-AC2E-5E14BD62C3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC52D22-A56D-4DC3-AC2E-5E14BD62C3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC52D22-A56D-4DC3-AC2E-5E14BD62C3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA7C80D-AC7E-4A08-9ED5-6DFA87405E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA7C80D-AC7E-4A08-9ED5-6DFA87405E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA7C80D-AC7E-4A08-9ED5-6DFA87405E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA7C80D-AC7E-4A08-9ED5-6DFA87405E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDAC2FF-640F-4FD3-8AD1-4AA07961AD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDAC2FF-640F-4FD3-8AD1-4AA07961AD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDAC2FF-640F-4FD3-8AD1-4AA07961AD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDAC2FF-640F-4FD3-8AD1-4AA07961AD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288BDC2A-C791-4A8D-9CD7-EA0E895239CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288BDC2A-C791-4A8D-9CD7-EA0E895239CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288BDC2A-C791-4A8D-9CD7-EA0E895239CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288BDC2A-C791-4A8D-9CD7-EA0E895239CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8BF636-172F-486A-9EBF-ADC474CB470B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8BF636-172F-486A-9EBF-ADC474CB470B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8BF636-172F-486A-9EBF-ADC474CB470B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8BF636-172F-486A-9EBF-ADC474CB470B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B7079D-5820-4891-B2C6-E3F7C08C9F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B7079D-5820-4891-B2C6-E3F7C08C9F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B7079D-5820-4891-B2C6-E3F7C08C9F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B7079D-5820-4891-B2C6-E3F7C08C9F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{288BDC2A-C791-4A8D-9CD7-EA0E895239CD} = {6B386857-85D3-4644-80CC-874271732E70}
+		{5A5F39F4-00C6-4EF6-9942-20EA173C0BA3} = {6B386857-85D3-4644-80CC-874271732E70}
+		{3A8DB39F-0CE1-4B5D-93C5-55B5AABBE055} = {6B386857-85D3-4644-80CC-874271732E70}
+		{4D8BF636-172F-486A-9EBF-ADC474CB470B} = {6B386857-85D3-4644-80CC-874271732E70}
+		{57B7079D-5820-4891-B2C6-E3F7C08C9F90} = {6B386857-85D3-4644-80CC-874271732E70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F98874CD-2FC5-41ED-A29E-7C5CE7982E43}
+	EndGlobalSection
+EndGlobal

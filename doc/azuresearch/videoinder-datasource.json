@@ -1,0 +1,18 @@
+{
+    "@odata.context": "https://xxxx.search.windows.net/$metadata#datasources/$entity",
+    "@odata.etag": "\"0x8D98A33E3BB09ED\"",
+    "name": "videoinder-datasource",
+    "description": null,
+    "type": "cosmosdb",
+    "subtype": null,
+    "credentials": {
+      "connectionString": "AccountEndpoint=https://xxxx.documents.azure.com;AccountKey=...;Database=videoindexer;"
+    },
+    "container": {
+      "name": "insights",
+      "query": null
+    },
+    "dataChangeDetectionPolicy": null,
+    "dataDeletionDetectionPolicy": null,
+    "encryptionKey": null
+  }
